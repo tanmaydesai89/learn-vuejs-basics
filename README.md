@@ -2,7 +2,7 @@
 Learn Vue.js step-by-step.
 
 ## Purpose
-Create an easy to start dev-environment for anyone to get started with Vue.js.
+Create an easy to start dev-environment and step-by-step guide for anyone to get started with Vue.js.
 
 #### Clone using SSH
 ```sh

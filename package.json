@@ -1,0 +1,22 @@
+{
+  "name": "learn-vuejs-basics",
+  "version": "0.0.1",
+  "description": "Learn Vue.js step-by-step.",
+  "scripts": {
+    "test": "gulp serve"
+  },
+  "keywords": [
+    "vuejs",
+    "learn",
+    "vue.js",
+    "tutorial"
+  ],
+  "author": "Tanmay Desai <thinktanmay@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.18.5",
+    "gulp": "^3.9.1",
+    "gulp-wiredep": "0.0.0",
+    "wiredep": "^4.0.0"
+  }
+}
