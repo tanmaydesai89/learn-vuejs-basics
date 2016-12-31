@@ -3,10 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <title>Learn Vue.js</title>
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-<div id="app">
+<div id="app" class="output">
+    <h3>app</h3>
     <p>{{ message }}</p>
+</div>
+
+<div id="app2" class="output">
+    <h3>app2</h3>
+    <p v-bind:title="message">Hover over me for few seconds to see dynamically bound title.</p>
+</div>
+
+<div id="app3" class="output">
+    <h3>app3</h3>
+    <p v-if="seen">You can't see me.</p>
+</div>
+
+<div id="app4" class="output">
+    <h3>app4</h3>
+    <ol>
+        <li v-for="todo in todos">
+            {{ todo.text }}
+        </li>
+    </ol>
+</div>
+
+<div id="app5" class="output">
+    <h3>app5</h3>
+    <p>{{ message }}</p>
+    <button v-on:click="reverseMessage">Click me!</button>
+</div>
+
+<div id="app6" class="output">
+    <h3>app6</h3>
+    <p>{{ message }}</p>
+    <input v-model="message">
+</div>
+
+<div id="app7" class="output">
+    <h3>app7</h3>
+    <ol>
+        <todo-item v-for="item in groceryList" v-bind:todo-text="item"></todo-item>
+    </ol>
 </div>
 </body>
 <script src="https://unpkg.com/vue/dist/vue.js"></script>

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|PT+Sans:400,400i,700,700i');
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', Arial, monospace;
+}
+
+div, p, ol, ul, li, a, button, input {
+    font-family: 'PT Sans', Arial, monospace;
+}
+
+code, pre {
+    font-family: monospace;
+}
+
+span, b, i {
+    font-family: inherit;
+}
+
+.output {
+    border: 1px solid #eee;
+    border-radius: 2px;
+    padding: 10px 10px;
+    margin-top: 1em;
+    margin-bottom: 40px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow-x: auto;
+}
